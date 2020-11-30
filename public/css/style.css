@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #cbbb98;
+  line-height: 1.4;
+  color: #273b40;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#page-wrap {
+  position: relative;
+  width: 800px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+#header {
+  background-image: url(../images/header.png);
+  height: 89px;
+  width: 780px;
+}
+#banner {
+  width: 780px;
+  height: 110px;
+  background-repeat: no-repeat;
+}
+#banner {
+  background-image: url(../images/banner.jpg);
+}
+#thumbnails {
+  width: 780px;
+  height: 100px;
+  overflow: scroll;
+}
+#sidebar {
+  width: 195px;
+  float: left;
+  margin-top: 10px;
+}
+#home .content,
+#contact .content {
+  background-image: url(../images/roberta.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  font-family: Cario, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  padding-top: 25px;
+  padding-left: 225px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+}
+
+.content p {
+  margin: 10px;
+}
+.content p.narrow {
+  width: 300px;
+}
+#home .content ul {
+  list-style-type: disc;
+  margin-left: 50px;
+}
+.content h2 {
+  text-align: center;
+}
+#gallery_content {
+}
+#menu {
+  font-family: Cairo, Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  list-style-type: none;
+}
+#menu li {
+  margin-top: 10px;
+}
+#menu li a {
+  width: 194px;
+  height: 45px;
+  color: #3a585f;
+  display: block;
+  text-decoration: none;
+}
+#home #menu a.home,
+#residential #menu a.residential,
+#commercial #menu a.commercial,
+#childrens_rooms #menu a.childrens_rooms,
+#odds_and_ends #menu a.odds_and_ends,
+#art_to_purchase #menu a.art_to_purchase,
+#face_painting #menu a.face_painting,
+#contactme #menu a.contactme {
+  background-position: top;
+  color: #3d727e;
+}
+#menu li a.home {
+  background-image: url(../images/homebtn.png);
+  background-position: center;
+}
+#menu li a.residential {
+  background-image: url(../images/residentialbtn.png);
+  background-position: center;
+}
+#menu li a.commercial {
+  background-image: url(../images/commercialbtn.png);
+  background-position: center;
+}
+#menu li a.childrens_rooms {
+  background-image: url(../images/childrensbtn.png);
+  background-position: center;
+}
+#menu li a.odds_and_ends {
+  background-image: url(../images/oddsandendsbtn.png);
+  background-position: center;
+}
+#menu li a.art_to_purchase {
+  background-image: url(../images/purchasebtn.png);
+  background-position: center;
+}
+
+#menu li a.face_painting {
+  background-image: url(../images/facepaintingbtn.png);
+  background-position: center;
+}
+#menu li a.contactme {
+  background-image: url(../images/contactmebtn.png);
+  background-position: center;
+}
+
+ul#menu li a:hover {
+  background-position: bottom;
+}
+.artwork {
+  position: absolute;
+  width: 600px;
+  top: 210px;
+  left: 200px;
+  min-height: 400px;
+  background-color: #b9a375;
+}
+.artwork h2 {
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #3a585f;
+  letter-spacing: 0.2em;
+}
+.artwork img {
+  margin: 0 auto;
+  display: block;
+}
+.artwork .description {
+  text-align: left;
+  font-family: Cairo, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 20px;
+  color: #3a585f;
+}
+a#prev {
+  background-image: url(../images/more.png);
+  background-position: 0px 0px;
+  height: 0px;
+  width: 50px;
+  display: block;
+  padding-top: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 28px;
+}
+a#prev:hover {
+  background-position: 0px -50px;
+}
+a#next {
+  background-image: url(../images/more.png);
+  background-position: 0px 50px;
+  height: 0px;
+  width: 50px;
+  display: block;
+  padding-top: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 28px;
+  right: 0px;
+}
+a#next:hover {
+  background-position: 0px 100px;
+}
+label {
+  display: block;
+}
+input.btn {
+  padding: 10px;
+  margin: 10px;
+  background-color: #3a585f;
+  color: #cbbb98;
+}
+#contact_errors {
+  color: #900;
+  font-weight: bold;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 615px;
+  top: 300px;
+}

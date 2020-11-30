@@ -1,0 +1,145 @@
+@charset "utf-8";
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background:#d5dde7;
+	color:#191A1E;
+}
+
+.page-wrap {
+	width:95%;
+	margin:0 auto;
+}
+.admin-menu {
+	display:flex;
+	justify-content: center;
+}
+.page-menu {
+	display:flex;
+	justify-content: center;
+}
+
+#login_form, #edit_user_form, .add_page_form {
+	width:450px;
+	border: 1px solid #000;
+	margin:50px auto;
+	padding:10px;
+	border-radius: 4px;
+}
+#add_item_form, #edit_item_form {
+	width:450px;
+	border: 1px solid #000;
+	margin:10px auto;
+	padding:10px;
+	border-radius: 4px;
+}
+
+#add_image_form {
+	width:450px;
+	border: 1px solid #000;
+	margin:50px auto;
+	padding:10px;
+	border-radius: 4px;
+}
+#edit_image_form {
+	width:900px;
+	border: 1px solid #000;
+	margin:50px auto;
+	padding:10px;
+	border-radius: 4px;
+}
+
+
+h1, h2, h3, h4,h5 {
+	text-align:center;
+}
+h1 {
+	font-size:14pt;
+	margin:5px;
+	padding:4px;
+	text-shadow: 0 1px 0 #ebebeb;
+}
+h2 {
+	margin:10px;
+}
+h3 {
+	margin:10px;
+}
+input[type=text],input[type=password] {
+	display:block;
+	margin:10px;
+	width:380px;
+	border:5px;
+	border-radius: 1px;
+	padding:6px;
+}
+textarea {
+	margin:10px;
+	border:5px;
+	border-radius: 1px;
+	padding:6px;
+}
+
+form {
+	padding:10px;
+}
+.error {
+	color:#ed1c24;
+	font-size:12px;
+}
+
+.page-list {
+	margin-top:20px;
+	padding:5px;
+}
+.page-list table {
+	margin:0 auto;
+	background-color:#ccc;
+	border:1px solid #888;
+	border-collapse:collapse;
+}
+.page-list tr {
+	border:1px solid #ddd;
+}
+
+.page-list tr.even {
+	background-color:#ddd;
+}
+
+.page-list td, .page-list th {
+	border:none;
+	padding:5px;
+}
+.item-list {
+	background-color:#dee6f1;
+	padding:10px;
+	border-radius:5px;
+	margin:10px;
+}
+.item {
+	margin-bottom:10px;
+	background-color:#D4D6E1;
+	padding: 25px;
+	border-radius: 10px;
+}
+.item img {
+	float:left;
+}
+.item p {
+	margin:0 0 0 150px;
+}
+.item ul {
+	margin-left:150px;
+	margin:10px 0px 5px 150px;
+	list-style:none;
+}
+.item ul li {
+	display:inline-block;
+}
+p.instruct{
+	margin:10px;
+	font-size:12px;
+}
